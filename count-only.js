@@ -6,7 +6,7 @@ const assertEqual = function(actual, expected) {
     }
    };
   
- 
+
   const countOnly = function(allItems, itemsToCount) {
     const results = {};
     for (let item in allItems) {
@@ -25,7 +25,6 @@ const assertEqual = function(actual, expected) {
     return results;
   }
   
-
    const firstNames = [
      "Karl",
      "Salima",
